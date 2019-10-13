@@ -54,9 +54,6 @@ attr activityChooserViewStyle
 attr actualImageResource
 attr actualImageScaleType
 attr actualImageUri
-attr adSize
-attr adSizes
-attr adUnitId
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -64,8 +61,6 @@ attr alertDialogTheme
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
-attr ambientEnabled
-attr appTheme
 attr arrowHeadLength
 attr arrowShaftLength
 attr autoCompleteTextViewStyle
@@ -95,15 +90,6 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
-attr buyButtonAppearance
-attr buyButtonHeight
-attr buyButtonText
-attr buyButtonWidth
-attr cameraBearing
-attr cameraTargetLat
-attr cameraTargetLng
-attr cameraTilt
-attr cameraZoom
 attr checkboxStyle
 attr checkedTextViewStyle
 attr circleCrop
@@ -151,16 +137,10 @@ attr editTextBackground
 attr editTextColor
 attr editTextStyle
 attr elevation
-attr environment
 attr expandActivityOverflowButtonDrawable
 attr fadeDuration
 attr failureImage
 attr failureImageScaleType
-attr fastScrollEnabled
-attr fastScrollHorizontalThumbDrawable
-attr fastScrollHorizontalTrackDrawable
-attr fastScrollVerticalThumbDrawable
-attr fastScrollVerticalTrackDrawable
 attr firstBaselineToTopHeight
 attr font
 attr fontFamily
@@ -173,8 +153,6 @@ attr fontProviderQuery
 attr fontStyle
 attr fontVariationSettings
 attr fontWeight
-attr fragmentMode
-attr fragmentStyle
 attr gapBetweenBars
 attr goIcon
 attr height
@@ -214,17 +192,8 @@ attr listPreferredItemHeightLarge
 attr listPreferredItemHeightSmall
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
-attr liteMode
 attr logo
 attr logoDescription
-attr mapType
-attr maskedWalletDetailsBackground
-attr maskedWalletDetailsButtonBackground
-attr maskedWalletDetailsButtonTextAppearance
-attr maskedWalletDetailsHeaderTextAppearance
-attr maskedWalletDetailsLogoImageType
-attr maskedWalletDetailsLogoTextColor
-attr maskedWalletDetailsTextAppearance
 attr maxButtonHeight
 attr measureWithLargestChild
 attr multiChoiceItemLayout
@@ -348,14 +317,6 @@ attr track
 attr trackTint
 attr trackTintMode
 attr ttcIndex
-attr uiCompass
-attr uiMapToolbar
-attr uiRotateGestures
-attr uiScrollGestures
-attr uiTiltGestures
-attr uiZoomControls
-attr uiZoomGestures
-attr useViewLifecycle
 attr viewAspectRatio
 attr viewInflaterClass
 attr voiceIcon
@@ -369,8 +330,6 @@ attr windowFixedWidthMinor
 attr windowMinWidthMajor
 attr windowMinWidthMinor
 attr windowNoTitle
-attr windowTransitionStyle
-attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_action_bar_embed_tabs_pre_jb
 bool abc_action_bar_expanded_action_views_exclusive
@@ -418,7 +377,6 @@ color bright_foreground_material_light
 color button_material_dark
 color button_material_light
 color catalyst_redbox_background
-color common_action_bar_splitter
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -430,17 +388,6 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
-color common_signin_btn_dark_text_default
-color common_signin_btn_dark_text_disabled
-color common_signin_btn_dark_text_focused
-color common_signin_btn_dark_text_pressed
-color common_signin_btn_default_background
-color common_signin_btn_light_text_default
-color common_signin_btn_light_text_disabled
-color common_signin_btn_light_text_focused
-color common_signin_btn_light_text_pressed
-color common_signin_btn_text_dark
-color common_signin_btn_text_light
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -490,21 +437,6 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
-color wallet_bright_foreground_disabled_holo_light
-color wallet_bright_foreground_holo_dark
-color wallet_bright_foreground_holo_light
-color wallet_dim_foreground_disabled_holo_dark
-color wallet_dim_foreground_holo_dark
-color wallet_dim_foreground_inverse_disabled_holo_dark
-color wallet_dim_foreground_inverse_holo_dark
-color wallet_highlighted_text_holo_dark
-color wallet_highlighted_text_holo_light
-color wallet_hint_foreground_holo_dark
-color wallet_hint_foreground_holo_light
-color wallet_holo_blue_light
-color wallet_link_text_light
-color wallet_primary_text_holo_light
-color wallet_secondary_text_holo_dark
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -596,9 +528,6 @@ dimen dialog_fixed_width_major
 dimen dialog_fixed_width_minor
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
-dimen fastscroll_default_thickness
-dimen fastscroll_margin
-dimen fastscroll_minimum_range
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -607,8 +536,6 @@ dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
-dimen item_touch_helper_swipe_escape_max_velocity
-dimen item_touch_helper_swipe_escape_velocity
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -624,10 +551,6 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
-dimen subtitle_corner_radius
-dimen subtitle_outline_width
-dimen subtitle_shadow_offset
-dimen subtitle_shadow_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -731,11 +654,6 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable cast_ic_notification_0
-drawable cast_ic_notification_1
-drawable cast_ic_notification_2
-drawable cast_ic_notification_connecting
-drawable cast_ic_notification_on
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -755,37 +673,8 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
-drawable common_ic_googleplayservices
-drawable common_signin_btn_icon_dark
-drawable common_signin_btn_icon_disabled_dark
-drawable common_signin_btn_icon_disabled_focus_dark
-drawable common_signin_btn_icon_disabled_focus_light
-drawable common_signin_btn_icon_disabled_light
-drawable common_signin_btn_icon_focus_dark
-drawable common_signin_btn_icon_focus_light
-drawable common_signin_btn_icon_light
-drawable common_signin_btn_icon_normal_dark
-drawable common_signin_btn_icon_normal_light
-drawable common_signin_btn_icon_pressed_dark
-drawable common_signin_btn_icon_pressed_light
-drawable common_signin_btn_text_dark
-drawable common_signin_btn_text_disabled_dark
-drawable common_signin_btn_text_disabled_focus_dark
-drawable common_signin_btn_text_disabled_focus_light
-drawable common_signin_btn_text_disabled_light
-drawable common_signin_btn_text_focus_dark
-drawable common_signin_btn_text_focus_light
-drawable common_signin_btn_text_light
-drawable common_signin_btn_text_normal_dark
-drawable common_signin_btn_text_normal_light
-drawable common_signin_btn_text_pressed_dark
-drawable common_signin_btn_text_pressed_light
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
-drawable ic_plusone_medium_off_client
-drawable ic_plusone_small_off_client
-drawable ic_plusone_standard_off_client
-drawable ic_plusone_tall_off_client
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -798,17 +687,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable powered_by_google_dark
-drawable powered_by_google_light
 drawable redbox_top_border_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
-id accessibility_actions
 id accessibility_hint
-id accessibility_label
 id accessibility_role
-id accessibility_state
-id accessibility_states
 id action0
 id action_bar
 id action_bar_activity_content
@@ -838,22 +721,15 @@ id async
 id auto
 id beginning
 id blocking
-id book_now
 id bottom
 id buttonPanel
-id buyButton
-id buy_now
-id buy_with
-id buy_with_google
 id cancel_action
-id cast_notification_id
 id catalyst_redbox_title
 id center
 id centerCrop
 id centerInside
 id checkbox
 id chronometer
-id classic
 id collapseActionView
 id content
 id contentPanel
@@ -863,8 +739,6 @@ id dark
 id decor_content_parent
 id default_activity_button
 id disableHome
-id donate_with
-id donate_with_google
 id edit_query
 id end
 id end_padder
@@ -878,16 +752,9 @@ id fitXY
 id focusCrop
 id forever
 id fps_text
-id google_wallet_classic
-id google_wallet_grayscale
-id google_wallet_monochrome
-id grayscale
 id group_divider
-id holo_dark
-id holo_light
 id home
 id homeAsUp
-id hybrid
 id icon
 id icon_group
 id icon_only
@@ -902,12 +769,9 @@ id line1
 id line3
 id listMode
 id list_item
-id logo_only
-id match_parent
 id media_actions
 id message
 id middle
-id monochrome
 id multiply
 id never
 id none
@@ -916,7 +780,6 @@ id notification_background
 id notification_main_column
 id notification_main_column_container
 id parentPanel
-id production
 id progress_circular
 id progress_horizontal
 id radio
@@ -926,6 +789,7 @@ id right_icon
 id right_side
 id rn_frame_file
 id rn_frame_method
+id rn_redbox_copy_button
 id rn_redbox_dismiss_button
 id rn_redbox_line_separator
 id rn_redbox_loading_indicator
@@ -934,8 +798,6 @@ id rn_redbox_reloadjs
 id rn_redbox_report_button
 id rn_redbox_report_label
 id rn_redbox_stack
-id sandbox
-id satellite
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -951,12 +813,10 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
-id selectionDetails
 id shortcut
 id showCustom
 id showHome
 id showTitle
-id slide
 id spacer
 id split_action_bar
 id src_atop
@@ -965,15 +825,12 @@ id src_over
 id standard
 id start
 id status_bar_latest_event_content
-id strict_sandbox
 id submenuarrow
 id submit_area
 id tabMode
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
-id terrain
-id test
 id text
 id text2
 id textSpacerNoButtons
@@ -998,8 +855,6 @@ integer abc_max_action_buttons
 integer cancel_button_image_alpha
 integer config_tooltipAnimTime
 integer google_play_services_version
-integer react_native_dev_server_port
-integer react_native_inspector_proxy_port
 integer status_bar_notification_info_maxnum
 layout abc_action_bar_title_item
 layout abc_action_bar_up_container
@@ -1055,7 +910,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-raw gtm_analytics
 string abc_action_bar_home_description
 string abc_action_bar_home_description_format
 string abc_action_bar_home_subtitle_description_format
@@ -1097,24 +951,11 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string accept
-string alert_description
-string auth_google_play_services_client_facebook_display_name
-string auth_google_play_services_client_google_display_name
-string cast_notification_connected_message
-string cast_notification_connecting_message
-string cast_notification_disconnect
-string catalyst_change_bundle_location
+string adjustable_description
 string catalyst_copy_button
-string catalyst_debug
-string catalyst_debug_chrome
-string catalyst_debug_chrome_stop
-string catalyst_debug_connecting
-string catalyst_debug_error
-string catalyst_debug_nuclide
-string catalyst_debug_nuclide_error
-string catalyst_debug_stop
 string catalyst_debugjs
+string catalyst_debugjs_nuclide
+string catalyst_debugjs_nuclide_failure
 string catalyst_debugjs_off
 string catalyst_dismiss_button
 string catalyst_element_inspector
@@ -1122,11 +963,6 @@ string catalyst_element_inspector_off
 string catalyst_heap_capture
 string catalyst_hot_module_replacement
 string catalyst_hot_module_replacement_off
-string catalyst_hot_reloading
-string catalyst_hot_reloading_auto_disable
-string catalyst_hot_reloading_auto_enable
-string catalyst_hot_reloading_stop
-string catalyst_inspector
 string catalyst_jsload_error
 string catalyst_jsload_message
 string catalyst_jsload_title
@@ -1135,88 +971,43 @@ string catalyst_live_reload_off
 string catalyst_loading_from_url
 string catalyst_perf_monitor
 string catalyst_perf_monitor_off
-string catalyst_perf_monitor_stop
-string catalyst_reload
+string catalyst_poke_sampling_profiler
 string catalyst_reload_button
-string catalyst_reload_error
 string catalyst_reloadjs
 string catalyst_remotedbg_error
 string catalyst_remotedbg_message
 string catalyst_report_button
-string catalyst_sample_profiler_disable
-string catalyst_sample_profiler_enable
 string catalyst_settings
 string catalyst_settings_title
 string catalyst_start_profile
 string catalyst_stop_profile
-string combobox_description
-string common_android_wear_notification_needs_update_text
-string common_android_wear_update_text
-string common_android_wear_update_title
-string common_google_play_services_api_unavailable_text
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
-string common_google_play_services_error_notification_requested_by_msg
 string common_google_play_services_install_button
 string common_google_play_services_install_text
-string common_google_play_services_install_text_phone
-string common_google_play_services_install_text_tablet
 string common_google_play_services_install_title
-string common_google_play_services_invalid_account_text
-string common_google_play_services_invalid_account_title
-string common_google_play_services_needs_enabling_title
-string common_google_play_services_network_error_text
-string common_google_play_services_network_error_title
 string common_google_play_services_notification_channel_name
-string common_google_play_services_notification_needs_update_title
 string common_google_play_services_notification_ticker
-string common_google_play_services_sign_in_failed_text
-string common_google_play_services_sign_in_failed_title
 string common_google_play_services_unknown_issue
 string common_google_play_services_unsupported_text
-string common_google_play_services_unsupported_title
 string common_google_play_services_update_button
 string common_google_play_services_update_text
 string common_google_play_services_update_title
 string common_google_play_services_updating_text
-string common_google_play_services_updating_title
 string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
-string create_calendar_message
-string create_calendar_title
-string decline
 string fcm_fallback_notification_channel_label
+string gcm_fallback_notification_channel_label
 string header_description
+string image_button_description
 string image_description
-string imagebutton_description
 string link_description
-string menu_description
-string menubar_description
-string menuitem_description
-string progressbar_description
-string radiogroup_description
-string rn_tab_description
-string scrollbar_description
 string search_description
 string search_menu_title
-string spinbutton_description
-string state_busy_description
-string state_collapsed_description
-string state_expanded_description
-string state_mixed_description
-string state_off_description
-string state_on_description
 string status_bar_notification_info_overflow
-string store_picture_message
-string store_picture_title
-string summary_description
-string tablist_description
-string timer_description
-string toolbar_description
-string wallet_buy_button_place_holder
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1524,13 +1315,8 @@ style Theme_Catalyst_RedBox
 style Theme_FullScreenDialog
 style Theme_FullScreenDialogAnimatedFade
 style Theme_FullScreenDialogAnimatedSlide
-style Theme_IAPTheme
 style Theme_ReactNative_AppCompat_Light
 style Theme_ReactNative_AppCompat_Light_NoActionBar_FullScreen
-style WalletFragmentDefaultButtonTextAppearance
-style WalletFragmentDefaultDetailsHeaderTextAppearance
-style WalletFragmentDefaultDetailsTextAppearance
-style WalletFragmentDefaultStyle
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar
@@ -1613,7 +1399,6 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
-styleable AdsAttrs adSize adSizes adUnitId
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_constantSize android_dither android_enterFadeDuration android_exitFadeDuration android_variablePadding android_visible
 styleable AnimatedStateListDrawableItem android_drawable android_id
@@ -1628,7 +1413,6 @@ styleable ColorStateListItem alpha android_alpha android_color
 styleable CompoundButton android_button buttonTint buttonTintMode
 styleable CoordinatorLayout keylines statusBarBackground
 styleable CoordinatorLayout_Layout android_layout_gravity layout_anchor layout_anchorGravity layout_behavior layout_dodgeInsetEdges layout_insetEdge layout_keyline
-styleable CustomWalletTheme windowTransitionStyle
 styleable DrawerArrowToggle arrowHeadLength arrowShaftLength barLength color drawableSize gapBetweenBars spinBars thickness
 styleable FontFamily fontProviderAuthority fontProviderCerts fontProviderFetchStrategy fontProviderFetchTimeout fontProviderPackage fontProviderQuery
 styleable FontFamilyFont android_font android_fontStyle android_fontVariationSettings android_fontWeight android_ttcIndex font fontStyle fontVariationSettings fontWeight ttcIndex
@@ -1640,14 +1424,13 @@ styleable LinearLayoutCompat android_baselineAligned android_baselineAlignedChil
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_height android_layout_weight android_layout_width
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
-styleable MapAttrs ambientEnabled cameraBearing cameraTargetLat cameraTargetLng cameraTilt cameraZoom liteMode mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MenuGroup android_checkableBehavior android_enabled android_id android_menuCategory android_orderInCategory android_visible
 styleable MenuItem actionLayout actionProviderClass actionViewClass alphabeticModifiers android_alphabeticShortcut android_checkable android_checked android_enabled android_icon android_id android_menuCategory android_numericShortcut android_onClick android_orderInCategory android_title android_titleCondensed android_visible contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_headerBackground android_horizontalDivider android_itemBackground android_itemIconDisabledAlpha android_itemTextAppearance android_verticalDivider android_windowAnimationStyle preserveIconSpacing subMenuArrow
 styleable PopupWindow android_popupAnimationStyle android_popupBackground overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
-styleable RecyclerView android_descendantFocusability android_orientation fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
+styleable RecyclerView android_orientation layoutManager reverseLayout spanCount stackFromEnd
 styleable SearchView android_focusable android_imeOptions android_inputType android_maxWidth closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable SignInButton buttonSize colorScheme scopeUris
 styleable SimpleDraweeView actualImageResource actualImageScaleType actualImageUri backgroundImage fadeDuration failureImage failureImageScaleType overlayImage placeholderImage placeholderImageScaleType pressedStateOverlayImage progressBarAutoRotateInterval progressBarImage progressBarImageScaleType retryImage retryImageScaleType roundAsCircle roundBottomEnd roundBottomLeft roundBottomRight roundBottomStart roundTopEnd roundTopLeft roundTopRight roundTopStart roundWithOverlayColor roundedCornerRadius roundingBorderColor roundingBorderPadding roundingBorderWidth viewAspectRatio
@@ -1661,7 +1444,5 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_focusable android_theme paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_inflatedId android_layout
-styleable WalletFragmentOptions appTheme environment fragmentMode fragmentStyle
-styleable WalletFragmentStyle buyButtonAppearance buyButtonHeight buyButtonText buyButtonWidth maskedWalletDetailsBackground maskedWalletDetailsButtonBackground maskedWalletDetailsButtonTextAppearance maskedWalletDetailsHeaderTextAppearance maskedWalletDetailsLogoImageType maskedWalletDetailsLogoTextColor maskedWalletDetailsTextAppearance
 xml preferences
 xml rn_dev_preferences

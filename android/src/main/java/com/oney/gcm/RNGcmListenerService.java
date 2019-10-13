@@ -9,7 +9,6 @@ import android.content.pm.PackageManager;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
-import androidx.core.app.NotificationCompat;
 import android.util.Log;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

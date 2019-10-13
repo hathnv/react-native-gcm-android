@@ -26,6 +26,7 @@ import java.util.Set;
 import org.json.*;
 
 import android.preference.PreferenceManager;
+import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 import android.content.Context;
@@ -35,7 +36,6 @@ import android.graphics.BitmapFactory;
 import android.content.res.Resources;
 import android.app.PendingIntent;
 import android.os.Bundle;
-import androidx.core.app.NotificationCompat;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.media.RingtoneManager;
