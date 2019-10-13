@@ -35,7 +35,7 @@ import android.graphics.BitmapFactory;
 import android.content.res.Resources;
 import android.app.PendingIntent;
 import android.os.Bundle;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.media.RingtoneManager;

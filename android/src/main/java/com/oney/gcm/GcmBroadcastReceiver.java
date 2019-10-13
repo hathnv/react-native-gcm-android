@@ -1,13 +1,12 @@
 package com.oney.gcm;
 
 import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 
-import android.content.Context;
+import com.facebook.react.HeadlessJsTaskService;
 
 public class GcmBroadcastReceiver extends BroadcastReceiver {
     private final static String TAG = GcmModule.class.getCanonicalName();
@@ -18,9 +17,10 @@ public class GcmBroadcastReceiver extends BroadcastReceiver {
 
         Bundle bundle = intent.getBundleExtra("bundle");
 
-        Intent newIntent = new Intent(context, BackgroundService.class);
-        newIntent.putExtra("bundle", bundle);
+        Intent newIntent = new Intent(context, BgService.class);
+        newIntent.putExtra("data", bundle);
         context.startService(newIntent);
-        abortBroadcast();
+        HeadlessJsTaskService.acquireWakeLockNow(context);
+//        abortBroadcast();
     }
 }

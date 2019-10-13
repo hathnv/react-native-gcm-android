@@ -1,20 +1,13 @@
 package com.oney.gcm;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.modules.fresco.FrescoModule;
 import com.facebook.react.modules.intent.IntentModule;
-import com.facebook.react.modules.location.LocationModule;
-//import com.facebook.react.modules.netinfo.NetInfoModule;
 import com.facebook.react.modules.network.NetworkingModule;
 import com.facebook.react.modules.storage.AsyncStorageModule;
-//import com.facebook.react.modules.toast.ToastModule;
 import com.facebook.react.modules.websocket.WebSocketModule;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.views.drawer.ReactDrawerLayoutManager;
@@ -25,14 +18,22 @@ import com.facebook.react.views.scroll.ReactScrollViewManager;
 import com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager;
 import com.facebook.react.views.switchview.ReactSwitchManager;
 import com.facebook.react.views.text.ReactRawTextManager;
-import com.facebook.react.views.text.ReactTextInlineImageViewManager;
 import com.facebook.react.views.text.ReactTextViewManager;
 import com.facebook.react.views.text.ReactVirtualTextViewManager;
 import com.facebook.react.views.textinput.ReactTextInputManager;
-import com.facebook.react.views.toolbar.ReactToolbarManager;
 import com.facebook.react.views.view.ReactViewManager;
 import com.facebook.react.views.viewpager.ReactViewPagerManager;
-import com.facebook.react.views.webview.ReactWebViewManager;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+//import com.facebook.react.modules.location.LocationModule;
+//import com.facebook.react.modules.netinfo.NetInfoModule;
+//import com.facebook.react.modules.toast.ToastModule;
+//import com.facebook.react.views.text.ReactTextInlineImageViewManager;
+//import com.facebook.react.views.toolbar.ReactToolbarManager;
+//import com.facebook.react.views.webview.ReactWebViewManager;
 //import com.facebook.react.modules.clipboard.ClipboardModule;
 
 /**
@@ -47,14 +48,13 @@ public class MainReactPackage implements ReactPackage {
 //                new ClipboardModule(reactContext),
                 new FrescoModule(reactContext),
                 new IntentModule(reactContext),
-                new LocationModule(reactContext),
+//                new LocationModule(reactContext),
                 new NetworkingModule(reactContext),
 //                new NetInfoModule(reactContext),
                 new WebSocketModule(reactContext));
 //                new ToastModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
@@ -71,12 +71,12 @@ public class MainReactPackage implements ReactPackage {
                 new ReactSwitchManager(),
                 new ReactTextInputManager(),
                 new ReactTextViewManager(),
-                new ReactToolbarManager(),
+//                new ReactToolbarManager(),
                 new ReactViewManager(),
                 new ReactViewPagerManager(),
-                new ReactTextInlineImageViewManager(),
+//                new ReactTextInlineImageViewManager(),
                 new ReactVirtualTextViewManager(),
-                new SwipeRefreshLayoutManager(),
-                new ReactWebViewManager());
+                new SwipeRefreshLayoutManager());
+//                new ReactWebViewManager());
     }
 }

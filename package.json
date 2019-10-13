@@ -1,13 +1,38 @@
 {
-  "name": "react-native-gcm-android",
-  "version": "0.1.9",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oney/react-native-gcm-android.git"
+  "_from": "react-native-gcm-android",
+  "_id": "react-native-gcm-android@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-XzBszty1wj1aLbUbTeg+Tb0AxjI=",
+  "_location": "/react-native-gcm-android",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-gcm-android",
+    "name": "react-native-gcm-android",
+    "escapedName": "react-native-gcm-android",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "nativePackage": true,
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-gcm-android/-/react-native-gcm-android-0.2.0.tgz",
+  "_shasum": "5f306ccedcb5c23d5a2db51b4de83e4dbd00c632",
+  "_spec": "react-native-gcm-android",
+  "_where": "/Users/robert/Documents/pushnoti",
+  "author": {
+    "name": "Oney",
+    "email": "appdevoney@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/oney/react-native-gcm-android/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "GCM for React Native Android",
-  "author": "Oney <appdevoney@gmail.com>",
   "homepage": "https://github.com/oney/react-native-gcm-android",
   "keywords": [
     "react-component",
@@ -15,8 +40,15 @@
     "android",
     "GCM"
   ],
+  "name": "react-native-gcm-android",
+  "nativePackage": true,
   "peerDependencies": {
     "react-native": ">=0.11.0",
     "react-native-system-notification": "^0.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oney/react-native-gcm-android.git"
+  },
+  "version": "0.2.0"
 }

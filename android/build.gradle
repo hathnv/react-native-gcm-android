@@ -16,9 +16,11 @@ android {
 }
 
 dependencies {
+    api "com.facebook.react:react-native:+"
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.facebook.react:react-native:0.17.+'
     compile 'com.google.android.gms:play-services-gcm:8.1.0'
-    compile 'com.android.support:appcompat-v7:23.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation "me.leolin:ShortcutBadger:1.1.22@aar"
     compile project(':react-native-system-notification')
 }
